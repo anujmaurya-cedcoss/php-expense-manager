@@ -12,6 +12,7 @@
 
 <body>
     <div id="wrapper">
+        <!-- income input section -->
         <div class="income">
             <h2>Income</h2>
             <label for="income">
@@ -21,7 +22,7 @@
                 <input type="submit" id="update-income-btn" value="Update Income">
             </label>
         </div>
-
+        <!-- expense input section -->
         <div class="expenses">
             <h2>Expenses</h2>
             <select name="category" id="category">
@@ -35,14 +36,14 @@
             <input type="submit" id="update-expense-btn" value="Update Expense">
         </div>
         <hr>
+        <!-- calculation section -->
         <div class="calculation">
-            <div id = "calculation__list">
-                
+            <div id="calculation__list">
             </div>
             <div class="calculation__expense">
                 <p id="total-expenditure">Total Expenditure : 0</p>
             </div>
-
+            <!-- remaining section -->
             <div class="calculation__remaining">
                 <p id="remaining-money">Remaining Money : 0 </p>
             </div>
@@ -50,4 +51,5 @@
     </div>
 </body>
 <script src="script.js"></script>
+
 </html>

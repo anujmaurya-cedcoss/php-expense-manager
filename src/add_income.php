@@ -1,5 +1,6 @@
 <?php
 session_start();
+// to add income
 if(!isset($_SESSION['app']['income'])) {
     $_SESSION['app']['income'] = [];
 }

@@ -1,5 +1,6 @@
 <?php
 session_start();
+// session configuration 
 $income = [[]];
 $expense = [[]];
 if(!isset($_SESSION['app'])) {
